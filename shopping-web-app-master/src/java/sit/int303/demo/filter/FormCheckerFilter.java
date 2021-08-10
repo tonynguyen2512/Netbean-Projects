@@ -1,0 +1,67 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package sit.int303.demo.filter;
+
+import java.io.IOException;
+import java.io.PrintStream;
+import java.io.PrintWriter;
+import java.io.StringWriter;
+import java.util.Enumeration;
+import java.util.HashMap;
+import java.util.Map;
+import javax.servlet.Filter;
+import javax.servlet.FilterChain;
+import javax.servlet.FilterConfig;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+
+/**
+ *
+ * @author bas
+ */
+public class FormCheckerFilter implements Filter {
+
+  private FilterConfig config;
+
+  @Override
+  public void init(FilterConfig filterConfig) throws ServletException {
+    this.config = filterConfig;
+  }
+
+  @Override
+  public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
+    boolean doChain = true;
+    
+    Enumeration<String> mandatories = config.getInitParameterNames();
+    Map<String, String> emptyFields = new HashMap();
+    while (mandatories.hasMoreElements()) {
+      String fieldName = mandatories.nextElement();
+      if (! fieldName.equalsIgnoreCase("TARGET")) {
+        if (request.getParameter(fieldName) == null || request.getParameter(fieldName).trim().length() == 0) {
+          System.out.println(fieldName);
+          emptyFields.put(fieldName, fieldName);
+          doChain = false;
+        } 
+      }
+    }
+    
+    if (doChain) {
+      chain.doFilter(request, response);
+    } else {
+      String view = config.getInitParameter("TARGET"); /* /Register.jsp */
+      request.setAttribute("emptyFields", emptyFields);
+      request.getRequestDispatcher(view).forward(request, response);
+      return;
+    }
+  }
+
+  @Override
+  public void destroy() {
+//    throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+  }
+  
+}

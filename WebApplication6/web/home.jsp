@@ -1,0 +1,22 @@
+<%-- 
+    Document   : home
+    Created on : Mar 13, 2021, 11:09:08 AM
+    Author     : ACER
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <form action="MainController" method="POST">
+        <input type="text" name ="id">
+        <input type="text" name ="name">
+        <input type="text" name ="description">
+        <input type="text" name ="price">
+        <input type="text" name ="cookingTime">
+        <input type="submit" name ="action" value="Add">
+    </form>
+    
+    <form action="MainController" method="POST">
+        <input type="submit" name ="action" value="Search">
+    </form>
+</html>

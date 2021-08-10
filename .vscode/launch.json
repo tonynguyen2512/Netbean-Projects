@@ -1,0 +1,309 @@
+{
+   // Use IntelliSense to learn about possible attributes.
+   // Hover to view descriptions of existing attributes.
+   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+   "version": "0.2.0",
+   "configurations": [
+      
+      {
+         "type": "java",
+         "name": "Launch Current File",
+         "request": "launch",
+         "mainClass": "${file}"
+      },
+      {
+         "type": "java",
+         "name": "Launch Snippet",
+         "request": "launch",
+         "mainClass": "snippet.Snippet",
+         "projectName": "Classes"
+      },
+      {
+         "type": "java",
+         "name": "Launch B2",
+         "request": "launch",
+         "mainClass": "B2",
+         "projectName": "NetBeansProjects"
+      },
+      {
+         "type": "java",
+         "name": "Launch B3",
+         "request": "launch",
+         "mainClass": "B3",
+         "projectName": "NetBeansProjects"
+      },
+      {
+         "type": "java",
+         "name": "Launch B4",
+         "request": "launch",
+         "mainClass": "B4",
+         "projectName": "NetBeansProjects"
+      },
+      {
+         "type": "java",
+         "name": "Launch B5",
+         "request": "launch",
+         "mainClass": "B5",
+         "projectName": "NetBeansProjects"
+      },
+      {
+         "type": "java",
+         "name": "Launch B6",
+         "request": "launch",
+         "mainClass": "B6",
+         "projectName": "NetBeansProjects"
+      },
+      {
+         "type": "java",
+         "name": "Launch NewClass",
+         "request": "launch",
+         "mainClass": "NewClass",
+         "projectName": "NetBeansProjects"
+      },
+      {
+         "type": "java",
+         "name": "Launch VD1",
+         "request": "launch",
+         "mainClass": "VD1",
+         "projectName": "NetBeansProjects"
+      },
+      {
+         "type": "java",
+         "name": "Launch VD2",
+         "request": "launch",
+         "mainClass": "VD2",
+         "projectName": "NetBeansProjects"
+      },
+      {
+         "type": "java",
+         "name": "Launch VD3",
+         "request": "launch",
+         "mainClass": "VD3",
+         "projectName": "NetBeansProjects"
+      },
+      {
+         "type": "java",
+         "name": "Launch VD4",
+         "request": "launch",
+         "mainClass": "VD4",
+         "projectName": "NetBeansProjects"
+      },
+      {
+         "type": "java",
+         "name": "Launch B1",
+         "request": "launch",
+         "mainClass": "lab1.B1",
+         "projectName": "NetBeansProjects"
+      },
+      {
+         "type": "java",
+         "name": "Launch IntPoint1_Use",
+         "request": "launch",
+         "mainClass": "myexample1.IntPoint1_Use",
+         "projectName": "NetBeansProjects"
+      },
+      {
+         "type": "java",
+         "name": "Launch MyExample1",
+         "request": "launch",
+         "mainClass": "myexample1.MyExample1",
+         "projectName": "NetBeansProjects"
+      },
+      {
+         "type": "java",
+         "name": "Launch ArrayDemo",
+         "request": "launch",
+         "mainClass": "pkg1.ArrayDemo",
+         "projectName": "NetBeansProjects"
+      },
+      {
+         "type": "java",
+         "name": "Launch Main",
+         "request": "launch",
+         "mainClass": "pkg1.Main",
+         "projectName": "NetBeansProjects"
+      },
+      {
+         "type": "java",
+         "name": "Launch NewClass(1)",
+         "request": "launch",
+         "mainClass": "pkg1.NewClass",
+         "projectName": "NetBeansProjects"
+      },
+      {
+         "type": "java",
+         "name": "Launch VD1(1)",
+         "request": "launch",
+         "mainClass": "pkg1.VD1",
+         "projectName": "NetBeansProjects"
+      },
+      {
+         "type": "java",
+         "name": "Launch VD2(1)",
+         "request": "launch",
+         "mainClass": "pkg1.VD2",
+         "projectName": "NetBeansProjects"
+      },
+      {
+         "type": "java",
+         "name": "Launch VD3(1)",
+         "request": "launch",
+         "mainClass": "pkg1.VD3",
+         "projectName": "NetBeansProjects"
+      },
+      {
+         "type": "java",
+         "name": "Launch VD4(1)",
+         "request": "launch",
+         "mainClass": "pkg1.VD4",
+         "projectName": "NetBeansProjects"
+      },
+      {
+         "type": "java",
+         "name": "Launch VD5",
+         "request": "launch",
+         "mainClass": "pkg1.VD5",
+         "projectName": "NetBeansProjects"
+      },
+      {
+         "type": "java",
+         "name": "Launch VD6",
+         "request": "launch",
+         "mainClass": "pkg1.VD6",
+         "projectName": "NetBeansProjects"
+      },
+      {
+         "type": "java",
+         "name": "Launch Btap2",
+         "request": "launch",
+         "mainClass": "pkg2.Btap2",
+         "projectName": "NetBeansProjects"
+      },
+      {
+         "type": "java",
+         "name": "Launch Main(1)",
+         "request": "launch",
+         "mainClass": "pkg2.Main",
+         "projectName": "NetBeansProjects"
+      },
+      {
+         "type": "java",
+         "name": "Launch Main(2)",
+         "request": "launch",
+         "mainClass": "viettuts.Main",
+         "projectName": "QLSV"
+      },
+      {
+         "type": "java",
+         "name": "Launch NewClass(2)",
+         "request": "launch",
+         "mainClass": "NewClass",
+         "projectName": "VD"
+      },
+      {
+         "type": "java",
+         "name": "Launch VD1(2)",
+         "request": "launch",
+         "mainClass": "VD1",
+         "projectName": "VD"
+      },
+      {
+         "type": "java",
+         "name": "Launch VD2(2)",
+         "request": "launch",
+         "mainClass": "VD2",
+         "projectName": "VD"
+      },
+      {
+         "type": "java",
+         "name": "Launch VD3(2)",
+         "request": "launch",
+         "mainClass": "VD3",
+         "projectName": "VD"
+      },
+      {
+         "type": "java",
+         "name": "Launch VD4(2)",
+         "request": "launch",
+         "mainClass": "VD4",
+         "projectName": "VD"
+      },
+      {
+         "type": "java",
+         "name": "Launch MyPatternLayout",
+         "request": "launch",
+         "mainClass": "org.apache.log4j.MyPatternLayout",
+         "projectName": "log4j"
+      },
+      {
+         "type": "java",
+         "name": "Launch StressCategory",
+         "request": "launch",
+         "mainClass": "org.apache.log4j.StressCategory",
+         "projectName": "log4j"
+      },
+      {
+         "type": "java",
+         "name": "Launch Main(3)",
+         "request": "launch",
+         "mainClass": "org.apache.log4j.chainsaw.Main",
+         "projectName": "log4j"
+      },
+      {
+         "type": "java",
+         "name": "Launch PropertyPrinter",
+         "request": "launch",
+         "mainClass": "org.apache.log4j.config.PropertyPrinter",
+         "projectName": "log4j"
+      },
+      {
+         "type": "java",
+         "name": "Launch LF5Appender",
+         "request": "launch",
+         "mainClass": "org.apache.log4j.lf5.LF5Appender",
+         "projectName": "log4j"
+      },
+      {
+         "type": "java",
+         "name": "Launch StartLogFactor5",
+         "request": "launch",
+         "mainClass": "org.apache.log4j.lf5.StartLogFactor5",
+         "projectName": "log4j"
+      },
+      {
+         "type": "java",
+         "name": "Launch JMSSink",
+         "request": "launch",
+         "mainClass": "org.apache.log4j.net.JMSSink",
+         "projectName": "log4j"
+      },
+      {
+         "type": "java",
+         "name": "Launch ShortSocketServer",
+         "request": "launch",
+         "mainClass": "org.apache.log4j.net.ShortSocketServer",
+         "projectName": "log4j"
+      },
+      {
+         "type": "java",
+         "name": "Launch SimpleSocketServer",
+         "request": "launch",
+         "mainClass": "org.apache.log4j.net.SimpleSocketServer",
+         "projectName": "log4j"
+      },
+      {
+         "type": "java",
+         "name": "Launch SocketServer",
+         "request": "launch",
+         "mainClass": "org.apache.log4j.net.SocketServer",
+         "projectName": "log4j"
+      },
+      {
+         "type": "java",
+         "name": "Launch Roller",
+         "request": "launch",
+         "mainClass": "org.apache.log4j.varia.Roller",
+         "projectName": "log4j"
+      }
+   ]
+}

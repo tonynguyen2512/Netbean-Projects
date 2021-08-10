@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/OnlineQuizApp/build/web/WEB-INF/lib/javax.mail-1.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/OnlineQuizApp/build/web/WEB-INF/lib/fluent-hc-4.5.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/OnlineQuizApp/build/web/WEB-INF/lib/sqljdbc4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/OnlineQuizApp/build/web/WEB-INF/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/OnlineQuizApp/build/web/WEB-INF/lib/javax.servlet.jsp-api-2.3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/OnlineQuizApp/build/web/WEB-INF/lib/activation-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/OnlineQuizApp/build/web/WEB-INF/lib/org-netbeans-modules-schema2beans-RELEASE111.jar!/" />
+      <root url="jar://$PROJECT_DIR$/OnlineQuizApp/build/web/WEB-INF/lib/mysql-connector-java-5.1.23-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/OnlineQuizApp/build/web/WEB-INF/lib/rest-api-sdk-1.14.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/OnlineQuizApp/build/web/WEB-INF/lib/httpcore-4.4.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/OnlineQuizApp/build/web/WEB-INF/lib/javax.servlet-api-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/OnlineQuizApp/build/web/WEB-INF/lib/spring-boot-starter-mail-2.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/OnlineQuizApp/build/web/WEB-INF/lib/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/OnlineQuizApp/build/web/WEB-INF/lib/slf4j-api-2.0.0-alpha1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/OnlineQuizApp/build/web/WEB-INF/lib/jstl-impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/OnlineQuizApp/build/web/WEB-INF/lib/httpclient-4.5.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/OnlineQuizApp/build/web/WEB-INF/lib/jstl-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/OnlineQuizApp/build/web/WEB-INF/lib/gson-2.8.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

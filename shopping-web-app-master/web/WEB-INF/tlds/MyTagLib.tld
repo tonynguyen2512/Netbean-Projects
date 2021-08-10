@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+  <tlib-version>1.0</tlib-version>
+  <short-name>mytaglib</short-name>
+  <uri>/WEB-INF/tlds/MyTagLib</uri>
+  <tag>
+    <name>TranformTag</name>
+    <tag-class>sit.int303.demo.tag.TransformTag.TranformTag</tag-class>
+    <body-content>scriptless</body-content>
+    <attribute>
+      <name>color</name>
+      <rtexprvalue>true</rtexprvalue>
+      <type>java.lang.String</type>
+    </attribute>
+    <attribute>
+      <name>mode</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+      <type>java.lang.String</type>
+    </attribute>
+  </tag>
+  <function>
+    <name>addMethod</name>
+    <function-class>
+          sit.int303.demo.function.AddFunction
+      </function-class>
+    <function-signature>
+          int addMethod(java.lang.String, java.lang.String)
+      </function-signature>
+  </function>
+  <function>
+    <name>getImageFileName</name>
+    <function-class>
+          sit.int303.demo.function.AddFunction
+      </function-class>
+    <function-signature>
+          java.lang.String getImageFileName(java.lang.String, java.lang.String)
+      </function-signature>
+  </function>
+</taglib>
